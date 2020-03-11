@@ -1,0 +1,6 @@
+
+BC dates
+How to define dates BC?
+
+Tags
+How to send tags in ee.data.setAssetProperties

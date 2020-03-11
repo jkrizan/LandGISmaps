@@ -1,0 +1,10 @@
+Kratki pregled stanja GEE LandGIS:
+Napravljeno:
+1. Uploadani su svi layeri osim 3.1 VEG_FAPAR_PROBA-V_D (on je prevelik moram ga razbiti na manje komade)
+2. Složene su skripte koje automatski hendlaju sve slučajeve osim prevelikih file-ova (spajanje u privremene tifove, uploadanje na GCS i uploadanje na GEE i postavljanje metadata na GEE)
+3. Od metadata je složeno: title, description, provider, provider_url, product_tags, system:time_start, system:time_end
+
+Za napraviti:
+1. Riješiti slučaj kad je file prevelik (3.1 layer) - nakon spajanja bandova treba tif razbiti na manje komade i uploadati ih sve na GCS i hendlati to kod ubacivanja u GEE
+2. U metapodatke još dodati: legende sa SLD-ova, thumbnails
+3. Poboljšati metadata: description, product_tags (da bude lista),
